@@ -78,8 +78,13 @@ body {
 }
 
 /* hero */
+
+.hero {
+  background-color: var(--dark-background-color);
+}
+
 .hero-title {
-  color: var(--title-text-color);
+  color: var(--white-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -97,6 +102,10 @@ body {
   font-size: 36px;
   line-height: 1, 2;
   text-align: center;
+}
+
+.section-group {
+  background-color: var(--secondary-background-color);
 }
 
 .section-item {
