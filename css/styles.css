@@ -1,0 +1,231 @@
+/* цвет основного текса  #757575*/
+/* вторичный цвет текста #212121*/
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+
+/* основной фон #ffffff */
+/* вторичный фон #F5F4FA  */
+/* темный фон #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --dark-background-color: #2f303a;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/* logo */
+.logo {
+  color: var(--title-text-color);
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+
+  letter-spacing: 0.03em;
+}
+
+.logo-header {
+  color: var(--accent-color);
+
+  font-family: Raleway;
+}
+
+/* site-nav */
+
+.site-nav .link,
+.auth-nav .link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero-title {
+  color: var(--title-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* section */
+
+.section-heading {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 2;
+  text-align: center;
+}
+
+.section-item {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.section-paragraph {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* button */
+.button-primary {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button-secondary {
+  background-color: var(--secondary-background-color);
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--dark-background-color);
+}
+
+.logo-footer {
+  color: var(--white-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.footer-address {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-data {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* css portfolio */
+
+.button-secondary {
+  background-color: var(--secondary-background-color);
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.cards-title {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.cards-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+/* footer */
+.footer {
+  background-color: var(--dark-background-color);
+}
+
+.logo-footer {
+  color: var(--white-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.footer-address {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-data {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
