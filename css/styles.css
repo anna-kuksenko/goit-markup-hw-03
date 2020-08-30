@@ -35,6 +35,13 @@ body {
   letter-spacing: 0.03em;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .list {
   padding: 0;
   margin: 0;
@@ -88,6 +95,12 @@ p {
   margin-left: auto;
 }
 
+.header-contacts {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .site-nav .item + .item,
 .auth-nav .item + .item {
   margin-left: 50px;
@@ -128,9 +141,16 @@ p {
 
 /* hero */
 
-.container-hero {
+.hero {
   background-color: var(--dark-background-color);
   text-align: center;
+  margin-bottom: 94px;
+}
+
+.hero-baner {
+  display: block;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -149,8 +169,33 @@ p {
 /* section */
 
 .section-advantages {
-  margin-top: 90px;
+  margin: 0;
   margin-bottom: 99px;
+}
+
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.advantage-item {
+  width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
+}
+
+.advantage-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .flex {
@@ -200,15 +245,6 @@ p {
   margin-top: 0;
   margin-bottom: 30px;
 }
-.section-title {
-  margin-top: 0;
-  margin-bottom: 10px;
-
-  color: var(--title-text-color);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-}
 
 .section-paragraph {
   color: var(--primary-text-color);
@@ -220,6 +256,8 @@ p {
 .section-doing {
   margin-top: 0;
   margin-bottom: 89px;
+
+  background-color: var(--secondary-background-color);
 }
 
 /* button */
