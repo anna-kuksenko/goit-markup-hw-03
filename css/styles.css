@@ -377,10 +377,16 @@ button {
   margin-bottom: 34px;
 }
 
+.section-button {
+  padding-bottom: 94px;
+}
+
+.heder-portfolio {
+  font-size: 0;
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 /* calc(100%-количество марджинов в строке*значение марджина/количество элементов в строке) */
@@ -417,5 +423,5 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  color: var(--primary-text-color: #757575);
+  color: var(--primary-text-color);
 }
