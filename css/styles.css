@@ -144,7 +144,6 @@ p {
 .hero {
   background-color: var(--dark-background-color);
   text-align: center;
-  margin-bottom: 94px;
 }
 
 .hero-baner {
@@ -154,7 +153,6 @@ p {
 }
 
 .hero-title {
-  margin-top: 0;
   margin-bottom: 40px;
   color: var(--white-color);
 
@@ -169,14 +167,13 @@ p {
 /* section */
 
 .section-advantage {
-  margin: 0;
-  margin-bottom: 99px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .advantages {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 30px;
 }
 
 .advantage-item {
@@ -199,8 +196,8 @@ p {
 }
 
 .section-doing {
-  margin-top: 0;
-  margin-bottom: 89px;
+  padding-top: 0;
+  padding-bottom: 94px;
 }
 
 img {
@@ -222,11 +219,10 @@ img {
 .flex {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
 }
 
 .flex-item {
-  width: 270;
+  width: 370;
   margin-right: 30px;
 }
 
@@ -364,6 +360,10 @@ button {
   font-size: 0;
 }
 
+.button-item {
+  margin-right: 8px;
+}
+
 .button-secondary {
   display: inline-block;
   min-width: 73px;
@@ -375,7 +375,6 @@ button {
   text-decoration: none;
   border-radius: 4px;
   border: none;
-  margin: 8px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -385,18 +384,11 @@ button {
   text-align: center;
 }
 
-.flex-button {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .button-flex {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
-  margin-bottom: 34px;
+  padding-top: 94px;
+  padding-bottom: 34px;
 }
 
 .section-button {
@@ -409,7 +401,10 @@ button {
 }
 
 .cards-title {
+  margin-left: 24px;
+  margin-right: 24px;
   margin-top: 20px;
+  margin-bottom: 0;
   color: var(--title-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -420,7 +415,10 @@ button {
 }
 
 .cards-paragraph {
+  margin-left: 24px;
+  margin-right: 24px;
   margin-top: 4px;
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
