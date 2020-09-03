@@ -371,7 +371,7 @@ button {
   font-size: 0;
 }
 
-.button-item {
+.button-flex .button-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -412,13 +412,14 @@ button {
 }
 
 .inscription {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 20px;
-  margin-bottom: 4px;
+  padding: 24px 20px;
+  /* margin-top: 20px;
+  margin-bottom: 4px; */
 }
 
 .cards-title {
+  margin-top: 0;
+  margin-bottom: 4px;
   color: var(--title-text-color);
   font-family: Roboto;
   font-style: normal;
