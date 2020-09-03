@@ -241,8 +241,13 @@ img {
 }
 
 .flex-group {
+  background-color: var(--white-color);
   width: 270;
   margin-right: 30px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .flex-group:nth-child(4n) {
@@ -257,6 +262,9 @@ img {
 
 .section-item {
   margin-top: 30px;
+  margin-bottom: 0;
+
+  text-align: center;
 
   color: var(--title-text-color);
   font-weight: 500;
@@ -266,6 +274,9 @@ img {
 
 .direction {
   margin-top: 10px;
+  margin-bottom: 30px;
+
+  text-align: center;
 
   color: var(--primary-text-color);
   font-weight: 500;
@@ -325,7 +336,7 @@ button {
 
 .logo-footer {
   display: inline-block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   color: var(--white-color);
   font-family: Raleway;
@@ -334,10 +345,10 @@ button {
   font-size: 26px;
   line-height: 1.2;
 }
+
 .footer-address {
   margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
   color: var(--white-color);
   font-weight: 400;
   font-size: 14px;
@@ -346,7 +357,7 @@ button {
 
 .footer-data {
   display: inline-block;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
@@ -387,8 +398,8 @@ button {
 .button-flex {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 34px;
+  margin-top: 94px;
+  margin-bottom: 34px;
 }
 
 .section-button {
@@ -400,11 +411,14 @@ button {
   flex-wrap: wrap;
 }
 
-.cards-title {
+.inscription {
   margin-left: 24px;
   margin-right: 24px;
   margin-top: 20px;
-  margin-bottom: 0;
+  margin-bottom: 4px;
+}
+
+.cards-title {
   color: var(--title-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -415,10 +429,6 @@ button {
 }
 
 .cards-paragraph {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 4px;
-  margin-bottom: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
@@ -432,6 +442,10 @@ button {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+
+  height: 404px;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
 }
 
 .flex-element:nth-child(3n) {
